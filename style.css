@@ -1,3 +1,15 @@
+:root {
+  --text-color: #667085;
+  --color-red: #8E2424;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
 .container{
     background-color: #FFFFFF;
     display: flex;
@@ -20,8 +32,6 @@
 }
 
 .text_logo{
-    
-    font-family: 'Inter', sans-serif;
     font-weight: 500;
     line-height: 24px;
     margin: 0;
@@ -37,10 +47,9 @@
     justify-content: space-around;
 }
 .navbar a{
-    font-family: 'Inter', sans-serif;
     font-weight: 500;
     font-size: 16px;
-    color: #667085;
+    color: var(--text-color);
     text-decoration: none;
 }
 
@@ -52,7 +61,6 @@
 }
 
 .auth_login{
-    font-family: 'Inter', sans-serif;
     width: 83px;
     height: 44px;
     border: none;
@@ -61,24 +69,22 @@
 }
 
 .auth_login a{
-    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-weight: 500;
-    color: #667085;
+    color: var(--text-color);
     text-decoration: none;
 }
 
 .auth_signup{
     width: 112px;
     height: 44px;
-    border: 1px solid #8E2424;
+    border: 1px solid var(--color-red);
     border-radius: 8px;
-    background-color: #8E2424;
+    background-color: var(--color-red);
     box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
 }
 
 .auth_signup a {
-    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-weight: 500;
     color: #FFFFFF;
