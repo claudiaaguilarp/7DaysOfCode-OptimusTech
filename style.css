@@ -97,7 +97,7 @@
     align-items: center;
     text-align: center;
     background-color: #FFFFFF;
-    gap: 28px;
+    gap: 12px;
 }
 
 .subheading{
@@ -111,14 +111,24 @@
 
 .content-block{
     display: flex;
-    gap: 12px;
 }
 .container-heading{
     width: 652px;
-    height: 60px;
+    height: 50px;
 }
 
 .supporting-text{
     width: 650px;
-    margin: 22px 0 12px 0;
+    margin: 12px 0 12px 0;
+}
+
+.metricas-container{
+    display: flex;
+    justify-content: space-around ;
+    
+    
+}
+
+.metricas_item{
+    border: 2px solid var(--color-red);
 }
