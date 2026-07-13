@@ -124,11 +124,36 @@
 
 .metricas-container{
     display: flex;
-    justify-content: space-around ;
-    
-    
+    justify-content: space-evenly;
+    width: 1216px;
+    height: 192px;
+    gap: 32px;
+    margin-top: 25px;
 }
 
 .metricas_item{
-    border: 2px solid var(--color-red);
+    width: 280px;
+    height: 168px;
+}
+
+.metricas_num{
+    color: var(--color-red);
+    width: 280px;
+    height: 62px;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: left;
+}
+
+.texto_metricas h5{
+    width: 280px;
+    height: 28px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.texto_metricas p{
+  font-size: 16px;
+  color: #667085;  
+  text-align: left;
 }
